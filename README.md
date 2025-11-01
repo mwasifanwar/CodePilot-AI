@@ -5,6 +5,9 @@
 <h2>Overview</h2>
 <p>Traditional software development faces significant challenges in productivity bottlenecks, code quality maintenance, and knowledge transfer efficiency. CodePilot AI addresses these fundamental issues by implementing a sophisticated multi-model architecture that understands programming context, analyzes code semantics, and generates optimized solutions while respecting project-specific conventions and dependencies. The platform democratizes advanced software engineering capabilities by making intelligent code generation accessible to developers of all experience levels while providing the granular control demanded by senior engineers and architects.</p>
 
+
+<img width="1145" height="681" alt="image" src="https://github.com/user-attachments/assets/73187140-ef08-454d-8735-8970f37abf38" />
+
 <p><strong>Strategic Innovation:</strong> CodePilot AI integrates multiple cutting-edge AI technologies—including transformer-based code generation, static program analysis, and project context understanding—into a cohesive, intuitive interface. The system's core innovation lies in its ability to maintain semantic understanding while providing contextual awareness, enabling users to generate code that seamlessly integrates with existing codebases and follows established patterns.</p>
 
 <h2>System Architecture</h2>
@@ -32,6 +35,9 @@
     ↓
 [Output Management] → Syntax Highlighting → Metadata Embedding → History Tracking
 </code></pre>
+
+<img width="1131" height="708" alt="image" src="https://github.com/user-attachments/assets/d4291496-15c3-4852-8c31-64afe2e0a949" />
+
 
 <p><strong>Advanced Processing Architecture:</strong> The system employs a modular, extensible architecture where each processing component can be independently optimized and scaled. The code generator supports multiple foundation models with automatic quality-based selection, while the analyzer implements both traditional static analysis and AI-powered pattern recognition. The context engine maintains deep project awareness, and the model manager handles efficient resource allocation across different AI models.</p>
 
@@ -83,6 +89,9 @@
   <li><strong>Cross-Platform Compatibility:</strong> Full support for Windows, macOS, and Linux with GPU acceleration optimization</li>
   <li><strong>Extensible Plugin Architecture:</strong> Modular design allowing custom analyzers, generators, and language support integration</li>
 </ul>
+
+<img width="855" height="645" alt="image" src="https://github.com/user-attachments/assets/a2694bdd-0b7f-4e7d-9f9c-13a746f4cdd6" />
+
 
 <h2>Installation</h2>
 <p><strong>System Requirements:</strong></p>
@@ -400,150 +409,39 @@ backups/                       # Automated backups
   <li><strong>Streamlit Development Team:</strong> For creating the intuitive web application framework that enables rapid deployment of AI applications</li>
 </ul>
 
-<p><strong>Platform Architecture:</strong> Enterprise-grade system design with modular microservices and scalable inference pipelines</p>
-<p><strong>AI Integration:</strong> Multi-model fusion, context-aware generation, and quality-optimized output selection</p>
-<p><strong>Developer Experience:</strong> Intuitive interface design, seamless workflow integration, and comprehensive documentation</p>
+<br>
+
+<h2 align="center">✨ Author</h2>
+
+<p align="center">
+  <b>M Wasif Anwar</b><br>
+  <i>AI/ML Engineer | Effixly AI</i>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/mwasifanwar" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="mailto:wasifsdk@gmail.com">
+    <img src="https://img.shields.io/badge/Email-grey?style=for-the-badge&logo=gmail" alt="Email">
+  </a>
+  <a href="https://mwasif.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Website-black?style=for-the-badge&logo=google-chrome" alt="Website">
+  </a>
+  <a href="https://github.com/mwasifanwar" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
+
+<br>
+
+---
+
+<div align="center">
+
+### ⭐ Don't forget to star this repository if you find it helpful!
+
+</div>
 
 <p><em>CodePilot AI represents a significant advancement in the intersection of artificial intelligence and software engineering, transforming how developers conceptualize, create, and maintain software systems. By providing intelligent code generation within a comprehensive development environment, the platform empowers individuals and teams to overcome productivity barriers while maintaining the highest standards of code quality and security. The system's extensible architecture and enterprise-ready deployment options make it suitable for diverse applications—from individual learning and prototyping to large-scale enterprise development and educational environments.</em></p>
 
-<style>
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  color: #333;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f8f9fa;
-}
-
-h1 {
-  color: #2c3e50;
-  border-bottom: 3px solid #3498db;
-  padding-bottom: 10px;
-  margin-bottom: 30px;
-  font-size: 2.5em;
-  text-align: center;
-}
-
-h2 {
-  color: #2c3e50;
-  border-left: 4px solid #3498db;
-  padding-left: 15px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  font-size: 1.8em;
-}
-
-h3 {
-  color: #34495e;
-  margin-top: 25px;
-  margin-bottom: 15px;
-  font-size: 1.3em;
-}
-
-p {
-  margin-bottom: 16px;
-  text-align: justify;
-}
-
-strong {
-  color: #2c3e50;
-  font-weight: 600;
-}
-
-em {
-  color: #7f8c8d;
-  font-style: italic;
-}
-
-pre {
-  background: #2d3748;
-  color: #e2e8f0;
-  padding: 20px;
-  border-radius: 8px;
-  overflow-x: auto;
-  margin: 20px 0;
-  border-left: 4px solid #3498db;
-}
-
-code {
-  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-  font-size: 0.9em;
-}
-
-ul, ol {
-  margin: 15px 0;
-  padding-left: 30px;
-}
-
-li {
-  margin-bottom: 8px;
-  line-height: 1.5;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-  background: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #e1e8ed;
-}
-
-th {
-  background-color: #3498db;
-  color: white;
-  font-weight: 600;
-}
-
-tr:nth-child(even) {
-  background-color: #f8f9fa;
-}
-
-tr:hover {
-  background-color: #e3f2fd;
-}
-
-a {
-  color: #3498db;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #2980b9;
-}
-
-.math {
-  font-family: 'Latin Modern Math', 'STIX Two Math', serif;
-  font-size: 1.1em;
-}
-
-@media (max-width: 768px) {
-  body {
-    padding: 15px;
-    font-size: 14px;
-  }
-  
-  h1 {
-    font-size: 2em;
-  }
-  
-  h2 {
-    font-size: 1.5em;
-  }
-  
-  pre {
-    padding: 15px;
-    font-size: 12px;
-  }
-}
-</style>
